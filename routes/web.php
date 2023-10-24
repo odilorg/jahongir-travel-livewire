@@ -29,18 +29,17 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-// Route::middleware(['auth' ])->group(function () {
-//     Route::get('/admin', function () {
-//         return view('admin.admin');
-//     });
-//     Route::resources([
-//         'tours' => TourController::class,
-//         'includeds' => IncludedController::class,
+Route::middleware(['auth' ])->group(function () {
+    Route::get('/admin', function () {
+        return view('admin.admin');
+    });
+    Route::resources([
+        
         
        
     
-//     ]);
-// });
+    ]);
+});
 
 
 
