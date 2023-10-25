@@ -495,12 +495,12 @@
                                             </a>
                                             <ul class="nav-main-submenu">
                                                 <li class="nav-main-item">
-                                                    <a class="nav-main-link active" href="{{ route('tours.index') }}">
+                                                    <a class="nav-main-link active" href="#">
                                                         <span class="nav-main-link-name">Tours</span>
                                                     </a>
                                                 </li>
                                                 <li class="nav-main-item">
-                                                    <a class="nav-main-link active" href="{{ route('includeds.index') }}">
+                                                    <a class="nav-main-link active" href="">
                                                         <span class="nav-main-link-name">Tour Included Items</span>
                                                     </a>
                                                 </li>
